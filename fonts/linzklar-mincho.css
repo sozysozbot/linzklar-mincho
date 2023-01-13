@@ -1,7 +1,7 @@
 @font-face {
     font-family: "linzklar-mincho";
-    src: url("./linzklar-mincho.ttf?838c11a7c2e748370693e4f279bdfbfd") format("truetype"),
-url("./linzklar-mincho.woff?838c11a7c2e748370693e4f279bdfbfd") format("woff");
+    src: url("./linzklar-mincho.ttf?83e8ef5544a276c15f0ef11307d8088a") format("truetype"),
+url("./linzklar-mincho.woff?83e8ef5544a276c15f0ef11307d8088a") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
