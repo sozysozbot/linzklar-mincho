@@ -1,0 +1,1229 @@
+@font-face {
+    font-family: "linzklar-mincho";
+    src: url("./linzklar-mincho.ttf?a8f27b3c1c2c78b9edb9c483063fb8bd") format("truetype"),
+url("./linzklar-mincho.woff?a8f27b3c1c2c78b9edb9c483063fb8bd") format("woff");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: linzklar-mincho !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-g3005_iteration:before {
+    content: "\3005";
+}
+.icon-g356E_cough:before {
+    content: "\356e";
+}
+.icon-g4E00_one:before {
+    content: "\4e00";
+}
+.icon-g4E03_seven:before {
+    content: "\4e03";
+}
+.icon-g4E09_three:before {
+    content: "\4e09";
+}
+.icon-g4E0A_up:before {
+    content: "\4e0a";
+}
+.icon-g4E0B_down:before {
+    content: "\4e0b";
+}
+.icon-g4E0E_give:before {
+    content: "\4e0e";
+}
+.icon-g4E2D_middle:before {
+    content: "\4e2d";
+}
+.icon-g4E4B_of:before {
+    content: "\4e4b";
+}
+.icon-g4E4E_question:before {
+    content: "\4e4e";
+}
+.icon-g4E5D_nine:before {
+    content: "\4e5d";
+}
+.icon-g4E8C_two:before {
+    content: "\4e8c";
+}
+.icon-g4E92_mutual:before {
+    content: "\4e92";
+}
+.icon-g4E94_five:before {
+    content: "\4e94";
+}
+.icon-g4EA6_:before {
+    content: "\4ea6";
+}
+.icon-g4EAB_harvest:before {
+    content: "\4eab";
+}
+.icon-g4EBA_human:before {
+    content: "\4eba";
+}
+.icon-g4ECE_:before {
+    content: "\4ece";
+}
+.icon-g4ED8_put:before {
+    content: "\4ed8";
+}
+.icon-g4EF6_thing:before {
+    content: "\4ef6";
+}
+.icon-g4F4D_rank:before {
+    content: "\4f4d";
+}
+.icon-g4F4E_low:before {
+    content: "\4f4e";
+}
+.icon-g4F53_body:before {
+    content: "\4f53";
+}
+.icon-g4F55_what:before {
+    content: "\4f55";
+}
+.icon-g4F70_cent:before {
+    content: "\4f70";
+}
+.icon-g4F7F_use:before {
+    content: "\4f7f";
+}
+.icon-g4FD0_sulfer:before {
+    content: "\4fd0";
+}
+.icon-g5009_store:before {
+    content: "\5009";
+}
+.icon-g5012_fall:before {
+    content: "\5012";
+}
+.icon-g5024_value:before {
+    content: "\5024";
+}
+.icon-g5065_:before {
+    content: "\5065";
+}
+.icon-g50B7_wound:before {
+    content: "\50b7";
+}
+.icon-g50BE_tilt:before {
+    content: "\50be";
+}
+.icon-g50DA_:before {
+    content: "\50da";
+}
+.icon-g5144_b.brother:before {
+    content: "\5144";
+}
+.icon-g5149_ray:before {
+    content: "\5149";
+}
+.icon-g515A_party:before {
+    content: "\515a";
+}
+.icon-g5165_enter:before {
+    content: "\5165";
+}
+.icon-g5168_all:before {
+    content: "\5168";
+}
+.icon-g516B_eight:before {
+    content: "\516b";
+}
+.icon-g516D_six:before {
+    content: "\516d";
+}
+.icon-g5175_soldier:before {
+    content: "\5175";
+}
+.icon-g5176_that:before {
+    content: "\5176";
+}
+.icon-g5185_inside:before {
+    content: "\5185";
+}
+.icon-g518D_again:before {
+    content: "\518d";
+}
+.icon-g51A0_crown:before {
+    content: "\51a0";
+}
+.icon-g51AC_winter:before {
+    content: "\51ac";
+}
+.icon-g51E6_place:before {
+    content: "\51e6";
+}
+.icon-g51F9_dent:before {
+    content: "\51f9";
+}
+.icon-g51FD_box:before {
+    content: "\51fd";
+}
+.icon-g5200_cutlery:before {
+    content: "\5200";
+}
+.icon-g5225_devide:before {
+    content: "\5225";
+}
+.icon-g524D_forward:before {
+    content: "\524d";
+}
+.icon-g529B_power:before {
+    content: "\529b";
+}
+.icon-g52A0_add:before {
+    content: "\52a0";
+}
+.icon-g52A9_help:before {
+    content: "\52a9";
+}
+.icon-g52B4_fatigue:before {
+    content: "\52b4";
+}
+.icon-g52FF_negation:before {
+    content: "\52ff";
+}
+.icon-g5305_wrap:before {
+    content: "\5305";
+}
+.icon-g5317_north:before {
+    content: "\5317";
+}
+.icon-g5341_ten:before {
+    content: "\5341";
+}
+.icon-g5357_south:before {
+    content: "\5357";
+}
+.icon-g5373_:before {
+    content: "\5373";
+}
+.icon-g5375_egg:before {
+    content: "\5375";
+}
+.icon-g53CB_friend:before {
+    content: "\53cb";
+}
+.icon-g53CD_bent:before {
+    content: "\53cd";
+}
+.icon-g53D7_:before {
+    content: "\53d7";
+}
+.icon-g53DB_oppose:before {
+    content: "\53db";
+}
+.icon-g53E3_mouth:before {
+    content: "\53e3";
+}
+.icon-g53E4_old:before {
+    content: "\53e4";
+}
+.icon-g53EB_yell:before {
+    content: "\53eb";
+}
+.icon-g53EF_able:before {
+    content: "\53ef";
+}
+.icon-g53F3_right:before {
+    content: "\53f3";
+}
+.icon-g5401_phonetic_a:before {
+    content: "\5401";
+}
+.icon-g540C_same:before {
+    content: "\540c";
+}
+.icon-g540D_name:before {
+    content: "\540d";
+}
+.icon-g540E_:before {
+    content: "\540e";
+}
+.icon-g540F_:before {
+    content: "\540f";
+}
+.icon-g5468_around:before {
+    content: "\5468";
+}
+.icon-g5473_taste:before {
+    content: "\5473";
+}
+.icon-g547B_groan:before {
+    content: "\547b";
+}
+.icon-g548D_:before {
+    content: "\548d";
+}
+.icon-g54C7_chirp:before {
+    content: "\54c7";
+}
+.icon-g54E9_Lipalaone:before {
+    content: "\54e9";
+}
+.icon-g552F_only:before {
+    content: "\552f";
+}
+.icon-g554C_phonetic_hen:before {
+    content: "\554c";
+}
+.icon-g5584_good:before {
+    content: "\5584";
+}
+.icon-g55C5_smell:before {
+    content: "\55c5";
+}
+.icon-g566B_phonetic_a:before {
+    content: "\566b";
+}
+.icon-g56C1_whisper:before {
+    content: "\56c1";
+}
+.icon-g56DB_four:before {
+    content: "\56db";
+}
+.icon-g56DB_hour:before {
+    content: "\56db";
+}
+.icon-g56F2_surround:before {
+    content: "\56f2";
+}
+.icon-g56FD_country:before {
+    content: "\56fd";
+}
+.icon-g5727_press:before {
+    content: "\5727";
+}
+.icon-g5728_be:before {
+    content: "\5728";
+}
+.icon-g5730_ground:before {
+    content: "\5730";
+}
+.icon-g578B_mould:before {
+    content: "\578b";
+}
+.icon-g5897_increace:before {
+    content: "\5897";
+}
+.icon-g58A8_ink:before {
+    content: "\58a8";
+}
+.icon-g58C1_wall:before {
+    content: "\58c1";
+}
+.icon-g58CA_break:before {
+    content: "\58ca";
+}
+.icon-g58F0_voice:before {
+    content: "\58f0";
+}
+.icon-g590F_summer:before {
+    content: "\590f";
+}
+.icon-g5916_outside:before {
+    content: "\5916";
+}
+.icon-g5918_:before {
+    content: "\5918";
+}
+.icon-g591A_many:before {
+    content: "\591a";
+}
+.icon-g5927_big:before {
+    content: "\5927";
+}
+.icon-g5929_sky:before {
+    content: "\5929";
+}
+.icon-g5931_loss:before {
+    content: "\5931";
+}
+.icon-g596E_excite:before {
+    content: "\596e";
+}
+.icon-g5973_female:before {
+    content: "\5973";
+}
+.icon-g5982_such:before {
+    content: "\5982";
+}
+.icon-g59CB_start:before {
+    content: "\59cb";
+}
+.icon-g5B50_child:before {
+    content: "\5b50";
+}
+.icon-g5B57_script:before {
+    content: "\5b57";
+}
+.icon-g5B63_season:before {
+    content: "\5b63";
+}
+.icon-g5B66_study:before {
+    content: "\5b66";
+}
+.icon-g5B88_defend:before {
+    content: "\5b88";
+}
+.icon-g5B98_official:before {
+    content: "\5b98";
+}
+.icon-g5B9A_determine:before {
+    content: "\5b9a";
+}
+.icon-g5BA6_eunuch:before {
+    content: "\5ba6";
+}
+.icon-g5BB6_house:before {
+    content: "\5bb6";
+}
+.icon-g5BD0_lie:before {
+    content: "\5bd0";
+}
+.icon-g5BD2_cold:before {
+    content: "\5bd2";
+}
+.icon-g5BDD_sleep:before {
+    content: "\5bdd";
+}
+.icon-g5C06_general:before {
+    content: "\5c06";
+}
+.icon-g5C0F_small:before {
+    content: "\5c0f";
+}
+.icon-g5C11_few:before {
+    content: "\5c11";
+}
+.icon-g5C5E_kind:before {
+    content: "\5c5e";
+}
+.icon-g5C64_layers:before {
+    content: "\5c64";
+}
+.icon-g5C71_mountain:before {
+    content: "\5c71";
+}
+.icon-g5CF6_island:before {
+    content: "\5cf6";
+}
+.icon-g5DDD_river:before {
+    content: "\5ddd";
+}
+.icon-g5DE6_left:before {
+    content: "\5de6";
+}
+.icon-g5DEB_shaman:before {
+    content: "\5deb";
+}
+.icon-g5DF1_subjective:before {
+    content: "\5df1";
+}
+.icon-g5DFB_roll:before {
+    content: "\5dfb";
+}
+.icon-g5E03_cloth:before {
+    content: "\5e03";
+}
+.icon-g5E1D_empelar:before {
+    content: "\5e1d";
+}
+.icon-g5E2D_seat:before {
+    content: "\5e2d";
+}
+.icon-g5E38_always:before {
+    content: "\5e38";
+}
+.icon-g5E3D_hat:before {
+    content: "\5e3d";
+}
+.icon-g5E73_flat:before {
+    content: "\5e73";
+}
+.icon-g5E83_vast:before {
+    content: "\5e83";
+}
+.icon-g5E97_shop:before {
+    content: "\5e97";
+}
+.icon-g5EA7_sit:before {
+    content: "\5ea7";
+}
+.icon-g5F13_bow:before {
+    content: "\5f13";
+}
+.icon-g5F62_shape:before {
+    content: "\5f62";
+}
+.icon-g5F7C_they:before {
+    content: "\5f7c";
+}
+.icon-g5F8B_law:before {
+    content: "\5f8b";
+}
+.icon-g5F8C_backward:before {
+    content: "\5f8c";
+}
+.icon-g5F93_follow:before {
+    content: "\5f93";
+}
+.icon-g5FA1_phonetic_am:before {
+    content: "\5fa1";
+}
+.icon-g5FC3_spirit:before {
+    content: "\5fc3";
+}
+.icon-g5FC5_must:before {
+    content: "\5fc5";
+}
+.icon-g6016_scary:before {
+    content: "\6016";
+}
+.icon-g601D_think:before {
+    content: "\601d";
+}
+.icon-g6025_rush:before {
+    content: "\6025";
+}
+.icon-g6052_permanence:before {
+    content: "\6052";
+}
+.icon-g60AA_bad:before {
+    content: "\60aa";
+}
+.icon-g610F_meaning:before {
+    content: "\610f";
+}
+.icon-g6211_1:before {
+    content: "\6211";
+}
+.icon-g6216_some:before {
+    content: "\6216";
+}
+.icon-g6226_war:before {
+    content: "\6226";
+}
+.icon-g624B_hand:before {
+    content: "\624b";
+}
+.icon-g6297_resist:before {
+    content: "\6297";
+}
+.icon-g632F_:before {
+    content: "\632f";
+}
+.icon-g633D_grind:before {
+    content: "\633d";
+}
+.icon-g6483_hit:before {
+    content: "\6483";
+}
+.icon-g6545_because:before {
+    content: "\6545";
+}
+.icon-g6551_save:before {
+    content: "\6551";
+}
+.icon-g6563_spread:before {
+    content: "\6563";
+}
+.icon-g6587_text:before {
+    content: "\6587";
+}
+.icon-g65A7_axe:before {
+    content: "\65a7";
+}
+.icon-g65B0_new:before {
+    content: "\65b0";
+}
+.icon-g65BC_:before {
+    content: "\65bc";
+}
+.icon-g65CF_race:before {
+    content: "\65cf";
+}
+.icon-g65E5_day:before {
+    content: "\65e5";
+}
+.icon-g661F_star:before {
+    content: "\661f";
+}
+.icon-g6625_spring:before {
+    content: "\6625";
+}
+.icon-g6642_time:before {
+    content: "\6642";
+}
+.icon-g666E_nomal:before {
+    content: "\666e";
+}
+.icon-g66F8_book:before {
+    content: "\66f8";
+}
+.icon-g6708_moon:before {
+    content: "\6708";
+}
+.icon-g6728_tree:before {
+    content: "\6728";
+}
+.icon-g673A_desk:before {
+    content: "\673a";
+}
+.icon-g6751_village:before {
+    content: "\6751";
+}
+.icon-g6765_come:before {
+    content: "\6765";
+}
+.icon-g676F_goblet:before {
+    content: "\676f";
+}
+.icon-g6771_east:before {
+    content: "\6771";
+}
+.icon-g679C_fruit:before {
+    content: "\679c";
+}
+.icon-g67D4_soft:before {
+    content: "\67d4";
+}
+.icon-g682A_stump:before {
+    content: "\682a";
+}
+.icon-g68B0_instrument:before {
+    content: "\68b0";
+}
+.icon-g68C9_cotton:before {
+    content: "\68c9";
+}
+.icon-g68DA_shelf:before {
+    content: "\68da";
+}
+.icon-g6975_extreme:before {
+    content: "\6975";
+}
+.icon-g698E_catalpa:before {
+    content: "\698e";
+}
+.icon-g69CD_spear:before {
+    content: "\69cd";
+}
+.icon-g69CD_stub:before {
+    content: "\69cd";
+}
+.icon-g6A3D_barrel:before {
+    content: "\6a3d";
+}
+.icon-g6A4B_bridge:before {
+    content: "\6a4b";
+}
+.icon-g6A4B_horizontal:before {
+    content: "\6a4b";
+}
+.icon-g6A5F_machene:before {
+    content: "\6a5f";
+}
+.icon-g6B3D_metal:before {
+    content: "\6b3d";
+}
+.icon-g6B4C_sing:before {
+    content: "\6b4c";
+}
+.icon-g6B62_stop:before {
+    content: "\6b62";
+}
+.icon-g6B63_correct:before {
+    content: "\6b63";
+}
+.icon-g6B64_this:before {
+    content: "\6b64";
+}
+.icon-g6B6A_warp:before {
+    content: "\6b6a";
+}
+.icon-g6BCD_mother:before {
+    content: "\6bcd";
+}
+.icon-g6BCE_every:before {
+    content: "\6bce";
+}
+.icon-g6BDB_fur:before {
+    content: "\6bdb";
+}
+.icon-g6C0F_clan:before {
+    content: "\6c0f";
+}
+.icon-g6C11_folk:before {
+    content: "\6c11";
+}
+.icon-g6C34_water:before {
+    content: "\6c34";
+}
+.icon-g6C5D_2:before {
+    content: "\6c5d";
+}
+.icon-g6C6A_bark:before {
+    content: "\6c6a";
+}
+.icon-g6C7A_prescribe:before {
+    content: "\6c7a";
+}
+.icon-g6CB9_oil:before {
+    content: "\6cb9";
+}
+.icon-g6D6C_Lipalaone2:before {
+    content: "\6d6c";
+}
+.icon-g6D77_sea:before {
+    content: "\6d77";
+}
+.icon-g6DEE_Vefis:before {
+    content: "\6dee";
+}
+.icon-g6DF1_deep:before {
+    content: "\6df1";
+}
+.icon-g6DF7_mix:before {
+    content: "\6df7";
+}
+.icon-g6E05_clear:before {
+    content: "\6e05";
+}
+.icon-g6E80_full:before {
+    content: "\6e80";
+}
+.icon-g6FC0_intense:before {
+    content: "\6fc0";
+}
+.icon-g706B_fire:before {
+    content: "\706b";
+}
+.icon-g70BA_form:before {
+    content: "\70ba";
+}
+.icon-g7121_nought:before {
+    content: "\7121";
+}
+.icon-g7159_smoke:before {
+    content: "\7159";
+}
+.icon-g7236_father:before {
+    content: "\7236";
+}
+.icon-g7247_piece:before {
+    content: "\7247";
+}
+.icon-g724C_Paige:before {
+    content: "\724c";
+}
+.icon-g725B_beef:before {
+    content: "\725b";
+}
+.icon-g7261_cow2:before {
+    content: "\7261";
+}
+.icon-g7269_objective:before {
+    content: "\7269";
+}
+.icon-g72AC_dog:before {
+    content: "\72ac";
+}
+.icon-g732B_cat:before {
+    content: "\732b";
+}
+.icon-g7363_animal:before {
+    content: "\7363";
+}
+.icon-g7384_dim:before {
+    content: "\7384";
+}
+.icon-g738B_king:before {
+    content: "\738b";
+}
+.icon-g7403_sphere:before {
+    content: "\7403";
+}
+.icon-g7434_harp:before {
+    content: "\7434";
+}
+.icon-g746A_horse2:before {
+    content: "\746a";
+}
+.icon-g7518_sweet:before {
+    content: "\7518";
+}
+.icon-g751F_raw:before {
+    content: "\751f";
+}
+.icon-g7523_produce:before {
+    content: "\7523";
+}
+.icon-g7537_male:before {
+    content: "\7537";
+}
+.icon-g75B2_fatigue:before {
+    content: "\75b2";
+}
+.icon-g767D_white:before {
+    content: "\767d";
+}
+.icon-g767E_hundred:before {
+    content: "\767e";
+}
+.icon-g7687_Tam:before {
+    content: "\7687";
+}
+.icon-g76B7_drum2:before {
+    content: "\76b7";
+}
+.icon-g76EE_eye:before {
+    content: "\76ee";
+}
+.icon-g76F4_rule:before {
+    content: "\76f4";
+}
+.icon-g771F_true:before {
+    content: "\771f";
+}
+.icon-g77ED_short:before {
+    content: "\77ed";
+}
+.icon-g77F3_stone:before {
+    content: "\77f3";
+}
+.icon-g786B_sulfer:before {
+    content: "\786b";
+}
+.icon-g786C_hard:before {
+    content: "\786c";
+}
+.icon-g7956_ancestor:before {
+    content: "\7956";
+}
+.icon-g795E_god:before {
+    content: "\795e";
+}
+.icon-g796D_ritual:before {
+    content: "\796d";
+}
+.icon-g79A6_phonetic_am:before {
+    content: "\79a6";
+}
+.icon-g79CB_autumn:before {
+    content: "\79cb";
+}
+.icon-g79D1_educate:before {
+    content: "\79d1";
+}
+.icon-g7A2E_seed:before {
+    content: "\7a2e";
+}
+.icon-g7A4D_stack:before {
+    content: "\7a4d";
+}
+.icon-g7A4F_peace:before {
+    content: "\7a4f";
+}
+.icon-g7A50_autumn:before {
+    content: "\7a50";
+}
+.icon-g7A74_hole:before {
+    content: "\7a74";
+}
+.icon-g7ACB_stand:before {
+    content: "\7acb";
+}
+.icon-g7AEF_edge:before {
+    content: "\7aef";
+}
+.icon-g7AF9_bamboo:before {
+    content: "\7af9";
+}
+.icon-g7AFA_bamboo:before {
+    content: "\7afa";
+}
+.icon-g7B11_laugh:before {
+    content: "\7b11";
+}
+.icon-g7B19_recorder:before {
+    content: "\7b19";
+}
+.icon-g7B1B_flute:before {
+    content: "\7b1b";
+}
+.icon-g7B46_pen:before {
+    content: "\7b46";
+}
+.icon-g7B49_people:before {
+    content: "\7b49";
+}
+.icon-g7B52_cylinder:before {
+    content: "\7b52";
+}
+.icon-g7B8F_zither:before {
+    content: "\7b8f";
+}
+.icon-g7BB1_box:before {
+    content: "\7bb1";
+}
+.icon-g7C73_rice:before {
+    content: "\7c73";
+}
+.icon-g7CF8_bond:before {
+    content: "\7cf8";
+}
+.icon-g7D19_paper:before {
+    content: "\7d19";
+}
+.icon-g7D20_element:before {
+    content: "\7d20";
+}
+.icon-g7D2F_pile:before {
+    content: "\7d2f";
+}
+.icon-g7D42_end:before {
+    content: "\7d42";
+}
+.icon-g7D75_picture:before {
+    content: "\7d75";
+}
+.icon-g7DB2_net:before {
+    content: "\7db2";
+}
+.icon-g7DBF_cotton:before {
+    content: "\7dbf";
+}
+.icon-g7E26_vertical:before {
+    content: "\7e26";
+}
+.icon-g7E54_loom:before {
+    content: "\7e54";
+}
+.icon-g7E82_compiler:before {
+    content: "\7e82";
+}
+.icon-g7F85_Ranerme:before {
+    content: "\7f85";
+}
+.icon-g7F8A_sheep:before {
+    content: "\7f8a";
+}
+.icon-g7F8E_aesthetic:before {
+    content: "\7f8e";
+}
+.icon-g7F9A_sheep:before {
+    content: "\7f9a";
+}
+.icon-g7FF0_:before {
+    content: "\7ff0";
+}
+.icon-g800C_and:before {
+    content: "\800c";
+}
+.icon-g8012_:before {
+    content: "\8012";
+}
+.icon-g8033_ear:before {
+    content: "\8033";
+}
+.icon-g805A_collect:before {
+    content: "\805a";
+}
+.icon-g806F_range:before {
+    content: "\806f";
+}
+.icon-g8089_meat:before {
+    content: "\8089";
+}
+.icon-g80B2_grow:before {
+    content: "\80b2";
+}
+.icon-g80CC_behind:before {
+    content: "\80cc";
+}
+.icon-g80F8_heart:before {
+    content: "\80f8";
+}
+.icon-g80FD_can:before {
+    content: "\80fd";
+}
+.icon-g8102_fat:before {
+    content: "\8102";
+}
+.icon-g8179_belly:before {
+    content: "\8179";
+}
+.icon-g81A0_jelly:before {
+    content: "\81a0";
+}
+.icon-g8239_boat:before {
+    content: "\8239";
+}
+.icon-g8272_color:before {
+    content: "\8272";
+}
+.icon-g82B1_flower:before {
+    content: "\82b1";
+}
+.icon-g8336_tea:before {
+    content: "\8336";
+}
+.icon-g8349_grass:before {
+    content: "\8349";
+}
+.icon-g83D3_snack:before {
+    content: "\83d3";
+}
+.icon-g864E_tiger:before {
+    content: "\864e";
+}
+.icon-g866B_bug:before {
+    content: "\866b";
+}
+.icon-g86CB_protain:before {
+    content: "\86cb";
+}
+.icon-g871C_nectar:before {
+    content: "\871c";
+}
+.icon-g8840_blood:before {
+    content: "\8840";
+}
+.icon-g884C_go:before {
+    content: "\884c";
+}
+.icon-g8853_method:before {
+    content: "\8853";
+}
+.icon-g8863_clothing:before {
+    content: "\8863";
+}
+.icon-g88C1_determine:before {
+    content: "\88c1";
+}
+.icon-g897F_west:before {
+    content: "\897f";
+}
+.icon-g8986_cover:before {
+    content: "\8986";
+}
+.icon-g8A00_speech:before {
+    content: "\8a00";
+}
+.icon-g8A8D_admit:before {
+    content: "\8a8d";
+}
+.icon-g8AD6_story:before {
+    content: "\8ad6";
+}
+.icon-g8B1D_apology:before {
+    content: "\8b1d";
+}
+.icon-g8B58_recognize:before {
+    content: "\8b58";
+}
+.icon-g8C37_valley:before {
+    content: "\8c37";
+}
+.icon-g8C46_bean:before {
+    content: "\8c46";
+}
+.icon-g8C4A_abundant:before {
+    content: "\8c4a";
+}
+.icon-g8C93_meow:before {
+    content: "\8c93";
+}
+.icon-g8C9D_clam:before {
+    content: "\8c9d";
+}
+.icon-g8CA7_poor:before {
+    content: "\8ca7";
+}
+.icon-g8CEA_quantity:before {
+    content: "\8cea";
+}
+.icon-g8D64_red:before {
+    content: "\8d64";
+}
+.icon-g8DB3_foot:before {
+    content: "\8db3";
+}
+.icon-g8E8D_leap:before {
+    content: "\8e8d";
+}
+.icon-g8ECA_car:before {
+    content: "\8eca";
+}
+.icon-g8ECD_army:before {
+    content: "\8ecd";
+}
+.icon-g8EDF_easy:before {
+    content: "\8edf";
+}
+.icon-g8EF8_axis:before {
+    content: "\8ef8";
+}
+.icon-g8EFD_light:before {
+    content: "\8efd";
+}
+.icon-g8F1D_shine:before {
+    content: "\8f1d";
+}
+.icon-g8F29_:before {
+    content: "\8f29";
+}
+.icon-g8F2A_ring:before {
+    content: "\8f2a";
+}
+.icon-g8FD1_near:before {
+    content: "\8fd1";
+}
+.icon-g8FF7_puzzle:before {
+    content: "\8ff7";
+}
+.icon-g901A_transport:before {
+    content: "\901a";
+}
+.icon-g9023_series:before {
+    content: "\9023";
+}
+.icon-g904A_game:before {
+    content: "\904a";
+}
+.icon-g9053_road:before {
+    content: "\9053";
+}
+.icon-g9060_far:before {
+    content: "\9060";
+}
+.icon-g9152_liquor:before {
+    content: "\9152";
+}
+.icon-g9187_alcohol:before {
+    content: "\9187";
+}
+.icon-g91D1_metal:before {
+    content: "\91d1";
+}
+.icon-g91DD_needle:before {
+    content: "\91dd";
+}
+.icon-g92AD_money:before {
+    content: "\92ad";
+}
+.icon-g9318_heavy:before {
+    content: "\9318";
+}
+.icon-g9396_chain:before {
+    content: "\9396";
+}
+.icon-g9453_:before {
+    content: "\9453";
+}
+.icon-g9577_long:before {
+    content: "\9577";
+}
+.icon-g9580_gate:before {
+    content: "\9580";
+}
+.icon-g9589_close:before {
+    content: "\9589";
+}
+.icon-g958B_open:before {
+    content: "\958b";
+}
+.icon-g95A5_Bhát:before {
+    content: "\95a5";
+}
+.icon-g95C7_darkness:before {
+    content: "\95c7";
+}
+.icon-g9678_land:before {
+    content: "\9678";
+}
+.icon-g968A_troop:before {
+    content: "\968a";
+}
+.icon-g96C6_team:before {
+    content: "\96c6";
+}
+.icon-g96EA_snow:before {
+    content: "\96ea";
+}
+.icon-g9707_vibrate:before {
+    content: "\9707";
+}
+.icon-g9752_blue:before {
+    content: "\9752";
+}
+.icon-g9759_silence:before {
+    content: "\9759";
+}
+.icon-g9808_ought:before {
+    content: "\9808";
+}
+.icon-g982C_cheek:before {
+    content: "\982c";
+}
+.icon-g982D_head:before {
+    content: "\982d";
+}
+.icon-g9854_face:before {
+    content: "\9854";
+}
+.icon-g985E_class:before {
+    content: "\985e";
+}
+.icon-g986B_quake:before {
+    content: "\986b";
+}
+.icon-g98A8_wind:before {
+    content: "\98a8";
+}
+.icon-g99AC_horse:before {
+    content: "\99ac";
+}
+.icon-g9AA8_bone:before {
+    content: "\9aa8";
+}
+.icon-g9AD8_fish:before {
+    content: "\9ad8";
+}
+.icon-g9AD8_high:before {
+    content: "\9ad8";
+}
+.icon-g9CE5_bird:before {
+    content: "\9ce5";
+}
+.icon-g9D8F_chicken:before {
+    content: "\9d8f";
+}
+.icon-g9E97_beautiful:before {
+    content: "\9e97";
+}
+.icon-g9ED2_black:before {
+    content: "\9ed2";
+}
+.icon-g9F13_drum1:before {
+    content: "\9f13";
+}
+.icon-g9F8D_dragon:before {
+    content: "\9f8d";
+}
+.icon-g5144_b-brother:before {
+    content: "\f101";
+}
+.icon-g95A5_Bhat:before {
+    content: "\f102";
+}

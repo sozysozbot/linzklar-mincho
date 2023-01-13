@@ -18,9 +18,14 @@
   "homepage": "https://github.com/sozysozbot/linzklar-mincho#readme",
   "devDependencies": {
     "@types/jsdom": "^20.0.1",
-    "@types/node": "^18.11.18"
+    "@types/node": "^18.11.18",
+    "@types/svg2ttf": "^5.0.1",
+    "@types/svgicons2svgfont": "^10.0.1",
+    "@types/ttf2woff": "^2.0.2"
   },
   "dependencies": {
+    "fantasticon": "^2.0.0",
+    "fs-extra": "^11.1.0",
     "jsdom": "^21.0.0"
   }
 }
