@@ -1,0 +1,26 @@
+{
+  "name": "linzklar-mincho",
+  "version": "0.1.0",
+  "description": "[たもと](https://twitter.com/tamoto_0x0)さんの燐字明朝体グリフをフォントに切り分ける",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sozysozbot/linzklar-mincho.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sozysozbot/linzklar-mincho/issues"
+  },
+  "homepage": "https://github.com/sozysozbot/linzklar-mincho#readme",
+  "devDependencies": {
+    "@types/jsdom": "^20.0.1",
+    "@types/node": "^18.11.18"
+  },
+  "dependencies": {
+    "jsdom": "^21.0.0"
+  }
+}
