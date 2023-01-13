@@ -5,5 +5,10 @@
 cf. https://github.com/AIL-MO-LETI-CEP/issues/issues/117
 
 ## グリフの生成方法
-`npm` を入れ、 `node split.js` を走らせることで、 `linmarn.svg` が分割され、それぞれが `glyphs` に入る
+npm を入れ、`npm install` してから `node split.js` を走らせることで、 `linmarn.svg` が分割され、それぞれが `glyphs` に入る
 
+## フォントの生成
+`node to_font.js`
+
+## フォント本体
+`fonts/` 以下にある
