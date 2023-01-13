@@ -8,7 +8,7 @@ import * as fs from 'fs';
     const files = fs.readdirSync(`${in_path}/`);
     files.forEach((file, index) => {
         if (file.slice(-4) !== ".svg") return;
-        glyph_map[file.slice(0, -4)] = parseInt(file.slice(1, 5), 16);
+        glyph_map[file.slice(0, -4)] = file.codePointAt(0)!;
     });
     console.log(glyph_map);
     generateFonts({

@@ -34,7 +34,7 @@ const fs = __importStar(require("fs"));
     files.forEach((file, index) => {
         if (file.slice(-4) !== ".svg")
             return;
-        glyph_map[file.slice(0, -4)] = parseInt(file.slice(1, 5), 16);
+        glyph_map[file.slice(0, -4)] = file.codePointAt(0);
     });
     console.log(glyph_map);
     (0, fantasticon_1.generateFonts)({
