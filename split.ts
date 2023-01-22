@@ -12,12 +12,13 @@ dom.window.document.querySelectorAll("g").forEach(g => {
 		const c = String.fromCodePoint(codepoint);
 		const english_name = match[2];
 		english_names[c] = english_name;
+		console.log(g.id, c);
 		fs.writeFileSync(`glyphs/${c}.svg`, `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg viewBox="0 0 2000 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
 	${g.innerHTML}
 </svg>
 `);
-		console.log(`wrote to glyphs/${c}.svg`);
+		// console.log(`wrote to glyphs/${c}.svg`);
 	} else {
 		console.log("skipped:", g, g.id);
 	}
