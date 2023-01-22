@@ -1,7 +1,7 @@
 @font-face {
     font-family: "linzklar-mincho";
-    src: url("./linzklar-mincho.ttf?83e8ef5544a276c15f0ef11307d8088a") format("truetype"),
-url("./linzklar-mincho.woff?83e8ef5544a276c15f0ef11307d8088a") format("woff");
+    src: url("./linzklar-mincho.ttf?23fb52a6a73f7986a1f39b52e68eeacf") format("truetype"),
+url("./linzklar-mincho.woff?23fb52a6a73f7986a1f39b52e68eeacf") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -173,6 +173,12 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-別:before {
     content: "\5225";
+}
+.icon-刺:before {
+    content: "\523a";
+}
+.icon-刻:before {
+    content: "\523b";
 }
 .icon-前:before {
     content: "\524d";
@@ -614,6 +620,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-槍:before {
     content: "\69cd";
+}
+.icon-横:before {
+    content: "\6a2a";
 }
 .icon-樽:before {
     content: "\6a3d";
@@ -1190,6 +1199,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-高:before {
     content: "\9ad8";
+}
+.icon-魚:before {
+    content: "\9b5a";
 }
 .icon-鳥:before {
     content: "\9ce5";
