@@ -11,8 +11,12 @@ dom.window.document.querySelectorAll("g").forEach(g => {
 		const codepoint = parseInt(match[1], 16);
 		const c = String.fromCodePoint(codepoint);
 		const english_name = match[2];
-		english_names[c] = english_name;
-		console.log(g.id, c);
+		if (english_names[c]) {
+			throw new Error(`Conflict: Trying to insert (${c}, ${g.id}) but there is already (${c}, ${english_names[c]})`)
+		} else {
+			english_names[c] = english_name;
+		}
+		console.log(c, g.id);
 		fs.writeFileSync(`glyphs/${c}.svg`, `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg viewBox="0 0 2000 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
 	${g.innerHTML}
