@@ -26,6 +26,6 @@
   "dependencies": {
     "fantasticon": "^2.0.0",
     "fs-extra": "^11.1.0",
-    "jsdom": "^21.0.0"
+    "jsdom": "^22.0.0"
   }
 }
