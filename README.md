@@ -27,3 +27,24 @@ npm を入れ、`npm install` してから `node split.js` を走らせること
 ### フォントの生成
 `node to_font.js`
 
+## 開発者のための注意
+
+package.json にある
+
+```json
+  "overrides": {
+    "fantasticon": {
+      "glob": "7.2.0"
+    }
+  }
+```
+
+は https://github.com/tancredi/fantasticon/issues/470 を避けるためのもの。
+
+ただし、これの適用は fantasticon の初回インストール時にしか効かないらしいので、`node to_font.js` を実行していて No SVGs found というエラーに直面したら、
+
+```bash
+npm uninstall fantasticon && npm install fantasticon
+```
+
+を実行してあげてください。
