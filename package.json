@@ -24,13 +24,8 @@
     "@types/ttf2woff": "^2.0.2"
   },
   "dependencies": {
-    "fantasticon": "^2.0.0",
+    "@twbs/fantasticon": "^2.7.2",
     "fs-extra": "^11.1.0",
     "jsdom": "^23.0.0"
-  },
-  "overrides": {
-    "fantasticon": {
-      "glob": "7.2.3"
-    }
   }
 }

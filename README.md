@@ -27,6 +27,9 @@ npm を入れ、`npm install` してから `node split.js` を走らせること
 ### フォントの生成
 `node to_font.js`
 
+<!--
+@twbs/fantasticon にマイグレしたので ↓ は要らなくなった
+
 ## 開発者のための注意
 
 package.json にある
@@ -48,3 +51,5 @@ npm uninstall fantasticon && npm install fantasticon
 ```
 
 を実行してあげてください。
+
+-->
