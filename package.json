@@ -26,6 +26,6 @@
   "dependencies": {
     "@twbs/fantasticon": "^3.0.0",
     "fs-extra": "^11.1.0",
-    "jsdom": "^25.0.0"
+    "jsdom": "^26.0.0"
   }
 }
